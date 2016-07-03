@@ -1,0 +1,44 @@
+/*注意也用这个简单的导航页面实践一下响应式页面*/
+
+@charset "utf-8";
+dl dd a {
+	display: inline-block;
+	margin-right:10px;
+}
+h2 {
+	font-size: 24px;
+	font-weight: bold;
+	color: blue;
+	text-align: center;
+}
+h3 {
+	border-bottom-width: medium;
+	border-bottom-style: solid;
+	border-bottom-color:blue;
+}
+h4, h5 {
+	margin-top:0;
+}
+.grid-item {
+	float: left;
+	margin-right:10px;
+	padding: 10px;
+}
+.grid-item:hover {
+	background-color:#CCCCCC;
+}
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+	border-collapse: collapse;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	min-height: 0; /* support: IE7 */
+}
+.footer {
+	text-align:center;
+}
